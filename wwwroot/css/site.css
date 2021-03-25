@@ -69,3 +69,37 @@ body {
   white-space: nowrap;
   line-height: 60px; /* Vertically center the text there */
 }
+
+/* Idea specific styles */
+
+.idea {
+    border: solid 1px #DDD;
+    padding: .5rem;
+    margin-bottom: .5rem;
+}
+
+    .idea > span {
+        font-size: .75rem;
+        color: #AAA;
+        font-style: italic;
+        padding: .5rem;
+    }
+
+    .idea > div {
+        padding: .5rem;
+    }
+
+a.create {
+    display: block;
+    width: 100%;
+    text-align: right;
+}
+
+.idea-form > * {
+    display: block;
+}
+
+.idea-form > textarea {
+    height: 5rem;
+    width: 100%;
+}
